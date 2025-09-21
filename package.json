@@ -1,0 +1,58 @@
+{
+  "name": "jass-theme",
+  "displayName": "Jass Theme",
+  "description": "A beautiful and modern theme for Visual Studio Code",
+  "version": "0.1.0",
+  "publisher": "unouo",
+  "author": {
+    "name": "unouo"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark theme",
+    "light theme",
+    "jass"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jass Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jass-dark-color-theme.json"
+      },
+      {
+        "label": "Jass Light",
+        "uiTheme": "vs",
+        "path": "./themes/jass-light-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unouo/jass-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unouo/jass-theme/issues"
+  },
+  "homepage": "https://github.com/unouo/jass-theme#readme",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#2D3748",
+    "theme": "dark"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}

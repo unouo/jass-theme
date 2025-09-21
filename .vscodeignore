@@ -1,0 +1,7 @@
+# Visual Studio Code Extension Ignore
+.vscode/
+.vsix
+node_modules/
+*.vsix
+.DS_Store
+Thumbs.db
